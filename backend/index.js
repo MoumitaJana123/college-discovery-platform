@@ -15,6 +15,7 @@ app.use(express.json());
  // connectionString: process.env.DATABASE_URL,
  // ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
 //});
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
