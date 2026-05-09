@@ -14,7 +14,7 @@ function ComparePage({ clearSelection }) {
     const ids = params.get('ids');
 
     if (ids) {
-      fetch(`http://localhost:5000/api/colleges/compare?ids=${ids}`)
+      fetch(`${process.env.REACT_APP_API_URL}/api/colleges/compare?ids=${ids}`)
         .then(res => res.json())
         .then(data => {
           setColleges(Array.isArray(data) ? data : []);
