@@ -11,9 +11,17 @@ app.use(cors());
 app.use(express.json());
 
 // Database Connection
+// const pool = new Pool({
+//   connectionString: process.env.DATABASE_URL,
+//   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
+// });
+// Database Connection
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
+  // This version works whether NODE_ENV is set or not
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
 
 //  SEARCH/GET allL Colleges
