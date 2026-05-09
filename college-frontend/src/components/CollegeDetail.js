@@ -10,7 +10,7 @@ function CollegeDetail({ clearSelection }) {
   const [activeTab, setActiveTab] = useState('courses');
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/colleges/${id}`)
+    fetch(`${process.env.REACT_APP_API_URL}/api/colleges/${id}`)
       .then(res => res.json())
       .then(data => setCollege(data))
       .catch(err => console.error("Error:", err));
