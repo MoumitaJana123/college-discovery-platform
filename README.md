@@ -9,8 +9,8 @@ A modern full-stack web application that helps students discover, explore, and c
 ## ✨ Key Features
 * 🔍 **Search:** Find colleges by name instantly.
 * 📍 **Filter:** Sort by locations, and courses.
-* 🏫 Dynamic Detail Pages:** Structured overview of placements, courses, and fees using dynamic routing.
-* ⚖️ College Comparison Engine:** A high-priority decision tool allowing side-by-side comparison of fees, ratings, and placement percentages.
+* 🏫 **Dynamic Detail Pages:** Structured overview of placements, courses, and fees using dynamic routing.
+* ⚖️ **College Comparison Engine:** A high-priority decision tool allowing side-by-side comparison of fees, ratings, and placement percentages.
 * ⚡ **Fast API:** Optimized Node/Express backend.
 * 📱 **Responsive:** Mobile-friendly UI built with Tailwind/CSS.
 
