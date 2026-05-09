@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can remove everything else below this line to keep it clean */
+body {
+  @apply bg-slate-50; /* This sets a nice light gray background for the whole page */
+}
