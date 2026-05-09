@@ -44,7 +44,8 @@ function App() {
 
       setLoading(true);
       try {
-        const response = await fetch(`http://localhost:5000/api/colleges?${queryParams}`);
+        //const response = await fetch(`http://localhost:5000/api/colleges?${queryParams}`);
+        const response = await fetch(${process.env.REACT_APP_API_URL}/api/colleges?${queryParams});
         const data = await response.json();
         const arrayData = data.colleges || (Array.isArray(data) ? data : []);
 
