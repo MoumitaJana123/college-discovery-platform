@@ -5,6 +5,7 @@ A modern full-stack web application that helps students discover, explore, and c
 ## 🚀 Live Demo
 - **Frontend:** https://college-discovery-platform-mauve.vercel.app/
 - **Backend API:** https://college-discovery-platform-28zm.onrender.com/api/colleges
+- **Demo Video:**https://drive.google.com/file/d/1HT4qd3kHhVMQwsf2ly67YjlLLCStyuy2/view?usp=sharing
 
 ## ✨ Key Features
 * 🔍 **Search:** Find colleges by name instantly.
